@@ -151,7 +151,7 @@ Visit our [contribution guidelines](https://github.com/magicmcp/mcp-servers/blob
 
 <div class="cta-section">
   <h2 style="margin-bottom: 2rem; color: var(--primary-color);">Ready to Get Started?</h2>
-  <a href="/mcp-servers/" class="btn btn-primary">
+  <a href="https://magicmcp.net/servers" class="btn btn-primary">
     🚀 Browse MCP Servers
   </a>
   <a href="/tutorials/" class="btn btn-secondary">
