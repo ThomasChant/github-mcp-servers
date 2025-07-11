@@ -2,20 +2,50 @@
 layout: default
 ---
 
-# Welcome to MagicMCP
-
-MagicMCP is your comprehensive resource for understanding and implementing Model Context Protocol (MCP) servers. MCP is a groundbreaking protocol that enables seamless communication between AI models and external tools, services, and data sources.
+<div class="hero-section">
+  <h1 class="hero-title animate-fade-in">Welcome to MagicMCP</h1>
+  <p class="hero-subtitle animate-fade-in">Your comprehensive resource for understanding and implementing Model Context Protocol (MCP) servers. MCP is a groundbreaking protocol that enables seamless communication between AI models and external tools, services, and data sources.</p>
+</div>
 
 ## What are MCP Servers?
 
-MCP servers are specialized services that provide structured interfaces for AI models to interact with various external systems. They act as bridges between language models and the real world, enabling capabilities such as:
-
-- **File System Access**: Read, write, and manipulate files on local or remote systems
-- **Database Operations**: Query and modify data in SQL and NoSQL databases
-- **API Integration**: Connect to third-party services and APIs
-- **Tool Execution**: Run scripts, commands, and specialized tools
-- **Data Processing**: Transform, analyze, and process various data formats
-- **Custom Functionality**: Build domain-specific capabilities for your applications
+<div class="feature-grid">
+  <div class="feature-card animate-fade-in">
+    <span class="feature-icon">📁</span>
+    <h3 class="feature-title">File System Access</h3>
+    <p class="feature-description">Read, write, and manipulate files on local or remote systems with secure access controls.</p>
+  </div>
+  
+  <div class="feature-card animate-fade-in">
+    <span class="feature-icon">🗄️</span>
+    <h3 class="feature-title">Database Operations</h3>
+    <p class="feature-description">Query and modify data in SQL and NoSQL databases with built-in security features.</p>
+  </div>
+  
+  <div class="feature-card animate-fade-in">
+    <span class="feature-icon">🔗</span>
+    <h3 class="feature-title">API Integration</h3>
+    <p class="feature-description">Connect to third-party services and APIs seamlessly with standardized protocols.</p>
+  </div>
+  
+  <div class="feature-card animate-fade-in">
+    <span class="feature-icon">⚡</span>
+    <h3 class="feature-title">Tool Execution</h3>
+    <p class="feature-description">Run scripts, commands, and specialized tools in secure, sandboxed environments.</p>
+  </div>
+  
+  <div class="feature-card animate-fade-in">
+    <span class="feature-icon">📊</span>
+    <h3 class="feature-title">Data Processing</h3>
+    <p class="feature-description">Transform, analyze, and process various data formats with high performance.</p>
+  </div>
+  
+  <div class="feature-card animate-fade-in">
+    <span class="feature-icon">🎯</span>
+    <h3 class="feature-title">Custom Functionality</h3>
+    <p class="feature-description">Build domain-specific capabilities tailored to your application needs.</p>
+  </div>
+</div>
 
 ## Key Features of MCP
 
@@ -46,13 +76,57 @@ Check out our [MCP Tutorial](/tutorials/) section to learn how to build your own
 
 ## Popular MCP Servers
 
-Here are some of the most popular MCP servers in our collection:
-
-1. **File System MCP** - Complete file system access with safety controls
-2. **Database MCP** - Universal database connector supporting multiple engines
-3. **Web Browser MCP** - Headless browser automation and web scraping
-4. **GitHub MCP** - GitHub API integration for repository management
-5. **Slack MCP** - Slack workspace integration for messaging and automation
+<div class="server-list">
+  <div class="server-card">
+    <h3 class="server-title">🗂️ File System MCP</h3>
+    <p class="server-description">Complete file system access with safety controls and secure operations.</p>
+    <div class="server-tags">
+      <span class="tag">File Operations</span>
+      <span class="tag">Security</span>
+      <span class="tag">TypeScript</span>
+    </div>
+  </div>
+  
+  <div class="server-card">
+    <h3 class="server-title">🗄️ Database MCP</h3>
+    <p class="server-description">Universal database connector supporting multiple engines including PostgreSQL, MySQL, and MongoDB.</p>
+    <div class="server-tags">
+      <span class="tag">SQL</span>
+      <span class="tag">NoSQL</span>
+      <span class="tag">Multi-Engine</span>
+    </div>
+  </div>
+  
+  <div class="server-card">
+    <h3 class="server-title">🌐 Web Browser MCP</h3>
+    <p class="server-description">Headless browser automation and web scraping capabilities with modern browser support.</p>
+    <div class="server-tags">
+      <span class="tag">Automation</span>
+      <span class="tag">Scraping</span>
+      <span class="tag">Playwright</span>
+    </div>
+  </div>
+  
+  <div class="server-card">
+    <h3 class="server-title">🐙 GitHub MCP</h3>
+    <p class="server-description">GitHub API integration for repository management, issues, and pull requests.</p>
+    <div class="server-tags">
+      <span class="tag">Git</span>
+      <span class="tag">API</span>
+      <span class="tag">DevOps</span>
+    </div>
+  </div>
+  
+  <div class="server-card">
+    <h3 class="server-title">💬 Slack MCP</h3>
+    <p class="server-description">Slack workspace integration for messaging and automation workflows.</p>
+    <div class="server-tags">
+      <span class="tag">Messaging</span>
+      <span class="tag">Automation</span>
+      <span class="tag">Teams</span>
+    </div>
+  </div>
+</div>
 
 ## Community
 
@@ -75,7 +149,12 @@ Visit our [contribution guidelines](https://github.com/magicmcp/mcp-servers/blob
 
 ---
 
-<div class="cta-section" style="text-align: center; margin: 40px 0;">
-  <a href="/mcp-servers/" class="btn btn-primary" style="padding: 10px 20px; margin: 0 10px;">Browse MCP Servers</a>
-  <a href="/tutorials/" class="btn btn-secondary" style="padding: 10px 20px; margin: 0 10px;">Start Learning</a>
+<div class="cta-section">
+  <h2 style="margin-bottom: 2rem; color: var(--primary-color);">Ready to Get Started?</h2>
+  <a href="/mcp-servers/" class="btn btn-primary">
+    🚀 Browse MCP Servers
+  </a>
+  <a href="/tutorials/" class="btn btn-secondary">
+    📚 Start Learning
+  </a>
 </div>

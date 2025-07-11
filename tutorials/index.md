@@ -11,29 +11,33 @@ Learn how to build your own MCP servers from scratch. Our tutorials cover multip
 ## Choose Your Language
 
 <div class="language-grid">
-  <div class="language-card">
-    <h3>🟨 TypeScript/JavaScript</h3>
+  <a href="./typescript-tutorial/" class="language-card">
+    <span class="language-icon">📜</span>
+    <h3 class="language-name">TypeScript</h3>
+    <p class="language-status">Most Popular</p>
     <p>Build MCP servers with Node.js and TypeScript. Perfect for web developers familiar with the JavaScript ecosystem.</p>
-    <a href="./typescript-tutorial/" class="btn">Start TypeScript Tutorial →</a>
-  </div>
+  </a>
 
-  <div class="language-card">
-    <h3>🐍 Python</h3>
+  <a href="./python-tutorial/" class="language-card">
+    <span class="language-icon">🐍</span>
+    <h3 class="language-name">Python</h3>
+    <p class="language-status">AI Integration</p>
     <p>Create MCP servers using Python. Ideal for data scientists and backend developers working with Python.</p>
-    <a href="./python-tutorial/" class="btn">Start Python Tutorial →</a>
-  </div>
+  </a>
 
-  <div class="language-card">
-    <h3>🐹 Go</h3>
+  <a href="./go-tutorial/" class="language-card">
+    <span class="language-icon">🐹</span>
+    <h3 class="language-name">Go</h3>
+    <p class="language-status">High Performance</p>
     <p>Develop high-performance MCP servers with Go. Great for systems programming and cloud-native applications.</p>
-    <a href="./go-tutorial/" class="btn">Start Go Tutorial →</a>
-  </div>
+  </a>
 
-  <div class="language-card">
-    <h3>🦀 Rust</h3>
+  <a href="./rust-tutorial/" class="language-card">
+    <span class="language-icon">🦀</span>
+    <h3 class="language-name">Rust</h3>
+    <p class="language-status">Memory Safety</p>
     <p>Build safe and efficient MCP servers with Rust. Perfect for performance-critical applications.</p>
-    <a href="./rust-tutorial/" class="btn">Start Rust Tutorial →</a>
-  </div>
+  </a>
 </div>
 
 ## What You'll Learn
@@ -110,66 +114,9 @@ Need assistance with your MCP server development?
 
 Want to improve our tutorials or add support for a new language?
 
-1. Fork the [tutorials repository](https://github.com/magicmcp/tutorials)
+1. Fork the [tutorials repository](https://github.com/thomaschant/tutorials)
 2. Create your feature branch
 3. Submit a pull request
 
 We welcome contributions in any programming language!
 
-<style>
-.language-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
-}
-
-.language-card {
-  border: 2px solid #e1e4e8;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.language-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.language-card h3 {
-  margin-top: 0;
-  font-size: 1.5em;
-}
-
-.btn {
-  display: inline-block;
-  padding: 8px 16px;
-  background: #0366d6;
-  color: white;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background 0.2s;
-}
-
-.btn:hover {
-  background: #0256c7;
-}
-
-table {
-  width: 100%;
-  margin: 20px 0;
-  border-collapse: collapse;
-}
-
-th, td {
-  border: 1px solid #e1e4e8;
-  padding: 8px 12px;
-  text-align: left;
-}
-
-th {
-  background: #f6f8fa;
-  font-weight: bold;
-}
-</style>

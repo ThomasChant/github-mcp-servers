@@ -4,9 +4,10 @@ title: MCP Servers Directory
 permalink: /mcp-servers/
 ---
 
-# MCP Servers Directory
-
-Browse our collection of MCP servers organized by category. Each server includes detailed documentation, installation instructions, and practical examples.
+<div class="hero-section">
+  <h1 class="hero-title">MCP Servers Directory</h1>
+  <p class="hero-subtitle">Browse our collection of MCP servers organized by category. Each server includes detailed documentation, installation instructions, and practical examples.</p>
+</div>
 
 ## Categories
 
@@ -60,23 +61,38 @@ Browse our collection of MCP servers organized by category. Each server includes
 
 ## Featured Servers
 
-<div class="featured-servers">
+<div class="server-list">
   <div class="server-card">
-    <h3>🌟 Filesystem MCP Server</h3>
-    <p>The most popular MCP server for file system operations. Provides safe, sandboxed access to local files with comprehensive security controls.</p>
-    <a href="./filesystem-mcp/">Learn more →</a>
+    <h3 class="server-title">🌟 Filesystem MCP Server</h3>
+    <p class="server-description">The most popular MCP server for file system operations. Provides safe, sandboxed access to local files with comprehensive security controls.</p>
+    <div class="server-tags">
+      <span class="tag">File System</span>
+      <span class="tag">Security</span>
+      <span class="tag">Popular</span>
+    </div>
+    <a href="./filesystem-mcp/" class="btn btn-primary">Learn more →</a>
   </div>
 
   <div class="server-card">
-    <h3>🚀 GitHub MCP</h3>
-    <p>Complete GitHub integration including repository management, issues, pull requests, and GitHub Actions.</p>
-    <a href="./github-mcp/">Learn more →</a>
+    <h3 class="server-title">🚀 GitHub MCP</h3>
+    <p class="server-description">Complete GitHub integration including repository management, issues, pull requests, and GitHub Actions.</p>
+    <div class="server-tags">
+      <span class="tag">Git</span>
+      <span class="tag">DevOps</span>
+      <span class="tag">API</span>
+    </div>
+    <a href="./github-mcp/" class="btn btn-primary">Learn more →</a>
   </div>
 
   <div class="server-card">
-    <h3>🗃️ PostgreSQL MCP</h3>
-    <p>Production-ready PostgreSQL integration with connection pooling, prepared statements, and transaction support.</p>
-    <a href="./postgresql-mcp/">Learn more →</a>
+    <h3 class="server-title">🗃️ PostgreSQL MCP</h3>
+    <p class="server-description">Production-ready PostgreSQL integration with connection pooling, prepared statements, and transaction support.</p>
+    <div class="server-tags">
+      <span class="tag">Database</span>
+      <span class="tag">SQL</span>
+      <span class="tag">Production</span>
+    </div>
+    <a href="./postgresql-mcp/" class="btn btn-primary">Learn more →</a>
   </div>
 </div>
 
@@ -96,26 +112,3 @@ Have you built an MCP server? We'd love to include it in our directory!
 
 [Submit your MCP server →](https://github.com/magicmcp/mcp-servers/issues/new?template=new-server.md)
 
-<style>
-.featured-servers {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 30px 0;
-}
-
-.server-card {
-  border: 1px solid #e1e4e8;
-  border-radius: 8px;
-  padding: 20px;
-  background: #f6f8fa;
-}
-
-.server-card h3 {
-  margin-top: 0;
-}
-
-.server-card a {
-  font-weight: bold;
-}
-</style>
