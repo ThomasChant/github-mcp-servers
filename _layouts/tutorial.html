@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      Language: {{ page.language }} |
+      Difficulty: {{ page.difficulty | default: "Beginner" }} |
+      {%- if page.updated -%}
+        Last updated: <time class="dt-published" datetime="{{ page.updated | date_to_xmlschema }}" itemprop="datePublished">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.updated | date: date_format }}
+        </time>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {%- if page.prerequisites -%}
+    <div class="prerequisites">
+      <h2>Prerequisites</h2>
+      <ul>
+        {%- for prereq in page.prerequisites -%}
+        <li>{{ prereq }}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endif -%}
+
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

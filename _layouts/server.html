@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- if page.github_url -%}
+        <a href="{{ page.github_url }}" target="_blank">View on GitHub</a> |
+      {%- endif -%}
+      {%- if page.npm_package -%}
+        <a href="https://www.npmjs.com/package/{{ page.npm_package }}" target="_blank">NPM Package</a> |
+      {%- endif -%}
+      Category: {{ page.category | default: "General" }}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if page.installation -%}
+  <div class="installation-section">
+    <h2>Installation</h2>
+    <pre><code>{{ page.installation }}</code></pre>
+  </div>
+  {%- endif -%}
+
+  {%- if page.usage -%}
+  <div class="usage-section">
+    <h2>Usage</h2>
+    {{ page.usage | markdownify }}
+  </div>
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
